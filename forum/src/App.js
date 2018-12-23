@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-lmport './pages/landing_page.js'
+import landing_page from './pages/landing_page.js';
 
 class App extends Component {
   render() {
     return (
-        
+	       <landing_page/>
     );
   }
 }
